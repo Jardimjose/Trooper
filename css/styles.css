@@ -1,0 +1,88 @@
+body,
+html {
+    background-color: #eeecec;
+    height: 100%;
+    margin: 0;
+}
+
+
+/*  */
+.bg {
+    background-image: url("https://images.unsplash.com/photo-1586861203937-ad1d79ed5e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand-title-left {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#period {
+    color: #ff0800;
+}
+
+.slogan-left {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 23.5%;
+    transform: translate(-50%, -50%);
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 16.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #ff0800;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    width: 215px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
