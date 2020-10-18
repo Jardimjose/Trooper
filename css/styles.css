@@ -86,3 +86,11 @@ html {
     opacity: 1;
     right: 0;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="button"] {
+    width: 100%;
+    font-size:150%;
+    }
+  }
